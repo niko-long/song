@@ -19,7 +19,18 @@ export default class Document extends NextDocument {
           <meta name="twitter:title" content="Xiaolong Song" />
           <meta name="twitter:description" content="Machine Learning Engineer and Data Scientist" />
           <meta name="twitter:image" content="https://xiaolongsong.vercel.app/images/profile.jpg" />
-          <link rel="icon" href="/favicon.ico" />
+          <link
+            rel="icon"
+            href="/favicon-light.ico"
+            media="(prefers-color-scheme: light)"
+          />
+          <link
+            rel="icon"
+            href="/favicon-dark.ico"
+            media="(prefers-color-scheme: dark)"
+          />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         </Head>
         <body>
           <svg style={{ display: 'none' }}>

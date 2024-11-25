@@ -22,19 +22,19 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const patrickImg = `/images/patrick${useColorModeValue('', '-dark')}.png`
+  const logoImg = `/images/patrick${useColorModeValue('-light', '-dark')}.png`
 
   return (
     <Link href="/" scroll={false}>
       <LogoBox>
-        <Image src={patrickImg} width={20} height={20} alt="logo" />
+        <Image src={logoImg} width={20} height={20} alt="logo" />
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamily='M PLUS Rounded 1c", sans-serif'
           fontWeight="bold"
           ml={3}
         >
-          Xiaolong Song
+          Coding Patrick Star
         </Text>
       </LogoBox>
     </Link>
